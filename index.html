@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&amp;family=Figtree:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <style>
-body{margin:0;background:#FFFFFF}
+body{margin:0;background:#FFFFFF;overflow-wrap:break-word}
 a{color:#0077B3}a:hover{color:#3E4095}
 .wrap{max-width:1240px;margin:0 auto;padding:0 32px;box-sizing:border-box}
 .sec{padding:112px 0}
@@ -173,9 +173,31 @@ header{position:relative}
 .hsplit .h1{font-size:clamp(2.5rem,4vw,3.5rem)}
 .hsplit .acc{color:#0089C7}
 @media (max-width: 960px){.hsplit{background:#F4F8FD !important}.hsplit .hvis{background:#14153D;border-radius:28px;padding:28px;overflow:hidden;position:relative}.hsplit .glow,.hsplit .aur{display:none}.split.hs{grid-template-columns:1fr}.m4a-menu summary{border-color:#D3D9E8;background:#FFFFFF;color:#1B1C4F}}
+.tb{display:flex;align-items:center;gap:28px}
+.tb-label{flex:none;font-size:.92rem;max-width:12rem;line-height:1.35}
+.tb-viewport{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.tb-track{display:flex;width:max-content;animation:tbscroll 34s linear infinite}
+.tb-viewport:hover .tb-track{animation-play-state:paused}
+.tb-item{display:inline-flex;align-items:center;gap:16px;padding-right:44px;white-space:nowrap;font-family:'Outfit',sans-serif;font-weight:600;font-size:1.15rem;color:#1B1C4F}
+.tb-plus{color:#FE0000;font-weight:700}
+@keyframes tbscroll{to{transform:translateX(-50%)}}
+@media (max-width: 640px){.tb{flex-direction:column;align-items:flex-start;gap:14px}.tb-label{max-width:none}.tb-viewport{width:100%}}
+@media (prefers-reduced-motion: reduce){.tb-track{animation:none;flex-wrap:wrap;width:auto;row-gap:10px}.tb-track > [aria-hidden]{display:none !important}}
 @media (max-width: 1100px){.mn,.mn-right{display:none !important}.m4a-menu{display:block}}
 @media (max-width: 960px){.split{grid-template-columns:1fr;gap:44px}.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:32px}.stat:nth-child(3){border-left:0;padding-left:0}.steps{grid-template-columns:1fr}}
 @media (max-width: 640px){.sec{padding:72px 0}.wrap{padding:0 20px}.g2,.g3,.g4{grid-template-columns:1fr}.card{padding:24px !important}.band[style*='padding: 36px']{padding:28px !important}.lead{font-size:1.08rem}.hero-pad{padding:48px 20px 64px !important}.dh{padding-top:124px !important}.hdr{padding:10px 10px 0 !important}.hbar{padding:8px 8px 8px 14px !important}.hero-under{margin-top:0}.glass{max-width:78%}.cta-box{padding:48px 24px !important;border-radius:28px !important}}
+@media (max-width: 960px){
+.gmap{aspect-ratio:auto;width:100%;max-width:360px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.gmap svg{position:static;width:100%;height:auto;aspect-ratio:480 / 682;flex:0 0 100%}
+.gmap .glass{position:static;animation:none;max-width:none;flex:1 1 140px}
+.hd[style*="sticky"]{position:static !important}
+}
+@media (max-width: 640px){
+.stats{column-gap:0}
+.stat{padding:4px 14px}
+.stat strong{font-size:1.7rem;white-space:normal;line-height:1.1}
+.stat span{font-size:.92rem}
+}
 @media (prefers-reduced-motion: reduce){.card,.btn{transition:none}}
 </style>
 </head>
@@ -218,7 +240,7 @@ header{position:relative}
 <div class="glass" style="right: -16%; top: 30%; animation-delay: -2.5s"><span style="display: inline-flex; align-items: center; gap: 8px; color: #FFFFFF; font-weight: 600; font-size: 0.92rem"><span style="width: 8px; height: 8px; border-radius: 50%; background: #3DDC97"></span>Order approved</span><span>Delivered and tracked</span></div>
 <div class="glass" style="left: -18%; bottom: 14%; animation-delay: -5s"><strong>14</strong><span>regions served</span></div>
 </div></div>
-</div></div><button type="button" class="vbtn" data-vidtoggle>Pause video</button></section><section style="padding: 56px 0; border-bottom: 1px solid #E8ECF3"><div class="wrap" style="display: flex; flex-direction: column; gap: 28px; align-items: center"><span class="muted" style="font-size: 0.92rem">Founded with, supported and recognised by</span><div class="logos"><img src="pharmaccess-logo.png" alt="PharmAccess" style="height: 30px; width: auto"><img src="chag-logo.png" alt="Christian Health Association of Ghana" style="height: 54px; width: auto"><img src="fda-logo.png" alt="Food and Drugs Authority Ghana" style="height: 50px; width: auto"><img src="helmsley-logo-v2.png" alt="The Leona M. and Harry B. Helmsley Charitable Trust" style="height: 46px; width: auto; border-radius: 4px"><img src="aeip-logo.png" alt="Africa-Europe Innovation Platform" style="height: 44px; width: auto"><img src="norad-logo.png" alt="Norad" style="height: 40px; width: auto; border-radius: 6px"><img src="achmea-logo.png" alt="Achmea" style="height: 30px; width: auto"><img src="pfizer-logo.png" alt="Pfizer" style="height: 40px; width: auto"></div></div></section><section style="padding: 40px 0; border-bottom: 1px solid #E8ECF3; background: #F6F9FC"><div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 14px 40px; text-align: center"><span class="muted" style="font-size: 0.92rem">Trusted by health facilities including</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Pentecost Hospital, Tarkwa</strong><span aria-hidden="true" style="color: #FE0000; font-weight: 700">+</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Hope Christian Hospital</strong><span aria-hidden="true" style="color: #FE0000; font-weight: 700">+</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Manna Mission Hospital</strong></div></section><section class="sec"><div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
+</div></div><button type="button" class="vbtn" data-vidtoggle>Pause video</button></section><section style="padding: 56px 0; border-bottom: 1px solid #E8ECF3"><div class="wrap" style="display: flex; flex-direction: column; gap: 28px; align-items: center"><span class="muted" style="font-size: 0.92rem">Founded with, supported and recognised by</span><div class="logos"><img src="pharmaccess-logo.png" alt="PharmAccess" style="height: 30px; width: auto"><img src="chag-logo.png" alt="Christian Health Association of Ghana" style="height: 54px; width: auto"><img src="fda-logo.png" alt="Food and Drugs Authority Ghana" style="height: 50px; width: auto"><img src="helmsley-logo-v2.png" alt="The Leona M. and Harry B. Helmsley Charitable Trust" style="height: 46px; width: auto; border-radius: 4px"><img src="aeip-logo.png" alt="Africa-Europe Innovation Platform" style="height: 44px; width: auto"><img src="norad-logo.png" alt="Norad" style="height: 40px; width: auto; border-radius: 6px"><img src="achmea-logo.png" alt="Achmea" style="height: 30px; width: auto"><img src="pfizer-logo.png" alt="Pfizer" style="height: 40px; width: auto"></div></div></section><section aria-label="Health facilities using Med4All" style="padding: 34px 0; border-bottom: 1px solid #E8ECF3; background: #F6F9FC"><div class="wrap tb"><span class="muted tb-label">Trusted by health facilities including</span><div class="tb-viewport"><div class="tb-track"><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Pentecost Hospital, Tarkwa</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Hope Christian Hospital</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Manna Mission Hospital</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Presbyterian Hospital, Donkorkrom</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Dzodze Ghana Mission Hospital</span><span aria-hidden="true" style="display: contents"><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Pentecost Hospital, Tarkwa</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Hope Christian Hospital</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Manna Mission Hospital</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Presbyterian Hospital, Donkorkrom</span><span class="tb-item"><span aria-hidden="true" class="tb-plus">+</span>Dzodze Ghana Mission Hospital</span></span></div></div></div></section><section class="sec"><div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
 <div class="hd c"><span class="eyebrow">Why Med4All</span><h2 class="h2">Everything a health facility needs to buy medicines with confidence.</h2></div>
 <div class="grid g3">
 <div class="card"><span class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"></path><path d="m9 12 2 2 4-4"></path></svg></span><h3 class="h3">Genuine medicines</h3><p>Every supplier is vetted by Med4All, with quality controls developed alongside Ghana’s FDA.</p></div>
