@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Med4All | Trusted medicines. Smarter procurement. Better access.</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Med4All is Ghana’s digital medicine marketplace. Health facilities order genuine medicines from vetted suppliers at fair prices, with approvals, payment and delivery tracking on one platform.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Med4All">
+<meta property="og:title" content="Med4All | Trusted medicines. Smarter procurement. Better access."><meta property="og:description" content="Med4All is Ghana’s digital medicine marketplace. Health facilities order genuine medicines from vetted suppliers at fair prices, with approvals, payment and delivery tracking on one platform.">
+<meta property="og:image" content="https://www.med4all.org.gh/assets/og-image.png"><meta property="og:url" content="https://www.med4all.org.gh/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://www.med4all.org.gh/">
+<style>[hidden]{display:none !important}</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&amp;family=Figtree:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0077B3}a:hover{color:#3E4095}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px;box-sizing:border-box}
+.sec{padding:112px 0}
+.alt{background:#F6F9FC}
+.dots{background-color:#F6F9FC;background-image:radial-gradient(#D3DCE8 1px,transparent 1.2px);background-size:24px 24px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.78rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#0077B3;display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"+";color:#FE0000;font-weight:700;font-size:1.05rem;letter-spacing:0}
+.eyebrow.light{color:#7FD7F7}
+.h1{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(2.6rem,4.4vw,3.9rem);line-height:1.03;letter-spacing:-.035em;color:#1B1C4F;margin:0}
+.h2{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(2.1rem,3.8vw,3.2rem);line-height:1.07;letter-spacing:-.03em;color:#1B1C4F;margin:0}
+.h3{font-family:'Outfit',sans-serif;font-weight:600;font-size:1.35rem;line-height:1.2;letter-spacing:-.01em;color:#1B1C4F;margin:0}
+.lead{font-size:1.2rem;line-height:1.6;color:#4E5170;margin:0;max-width:36rem}
+.muted{color:#4E5170}
+.hd{display:flex;flex-direction:column;gap:18px;max-width:46rem}
+.hd.c{align-items:center;text-align:center;margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:1.02rem;text-decoration:none;min-height:50px;box-sizing:border-box;border:1.5px solid transparent;transition:background .2s,transform .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-p{background:#3E4095;color:#FFFFFF}.btn-p:hover{background:#2E3080;color:#FFFFFF}
+.btn-c{background:#00AFF0;color:#1B1C4F}.btn-c:hover{background:#2BC0F5;color:#1B1C4F}
+.btn-o{background:#FFFFFF;color:#1B1C4F;border-color:#D3D9E8}.btn-o:hover{border-color:#3E4095;color:#1B1C4F}
+.btn-g{background:transparent;color:#FFFFFF;border-color:rgba(255,255,255,.35)}.btn-g:hover{border-color:#FFFFFF;color:#FFFFFF}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:64px;align-items:center}
+.card{background:#FFFFFF;border:1px solid #E6EAF2;border-radius:24px;padding:32px;box-shadow:0 1px 2px rgba(27,28,79,.04);display:flex;flex-direction:column;gap:14px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(27,28,79,.08)}
+.card p{margin:0;color:#4E5170;line-height:1.6}
+.icon{width:52px;height:52px;border-radius:16px;background:#EAF7FD;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.icon.l{background:#F0F0FA}
+.photo{position:relative;border-radius:28px;overflow:hidden}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.chip{position:absolute;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.7);border-radius:18px;padding:12px 16px;display:flex;flex-direction:column;box-shadow:0 14px 34px rgba(27,28,79,.16);z-index:2}
+.chip strong{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.6rem;line-height:1;color:#1B1C4F}
+.chip span{color:#4E5170;font-size:.85rem}
+.band{background:#1B1C4F;color:#FFFFFF;position:relative;overflow:hidden}
+.band .h2{color:#FFFFFF}
+.glow{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.stat{padding:6px 28px;border-left:1px solid rgba(255,255,255,.16);display:flex;flex-direction:column;gap:6px}
+.stat:first-child{border-left:0;padding-left:0}
+.stat strong{font-family:'Outfit',sans-serif;font-weight:700;font-size:clamp(2.1rem,3.2vw,2.9rem);white-space:nowrap;line-height:1;letter-spacing:-.02em}
+.stat span{color:#C9CCEB}
+.stats.light .stat{border-left-color:#E1E6F0}.stats.light .stat strong{color:#1B1C4F}.stats.light .stat span{color:#4E5170}
+.logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 64px}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;counter-reset:s}
+.step{position:relative;padding-top:28px;border-top:2px solid #E1E6F0;display:flex;flex-direction:column;gap:12px}
+.step::before{content:"";position:absolute;top:-2px;left:0;width:64px;height:2px;background:#00AFF0}
+.num{font-family:'IBM Plex Mono',monospace;font-size:.85rem;color:#0077B3}
+.check{display:flex;gap:12px;align-items:flex-start;color:#2F3256;line-height:1.55}
+.check::before{content:"";flex:none;width:22px;height:22px;margin-top:1px;border-radius:50%;background:#EAF7FD url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230077B3' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center/13px no-repeat}
+.list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.tag{align-self:flex-start;font-size:.78rem;font-weight:700;padding:5px 11px;border-radius:999px;background:#F0F0FA;color:#3E4095}
+.quote{font-family:'Outfit',sans-serif;font-weight:500;font-size:clamp(1.35rem,2.2vw,1.8rem);line-height:1.3;letter-spacing:-.01em;margin:0}
+.faq details{border-bottom:1px solid #E1E6F0;padding:22px 0}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.1rem;color:#1B1C4F;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:#00AFF0;font-size:1.5rem;line-height:1;font-weight:400}
+.faq details[open] summary::after{content:"\2212"}
+.faq p{margin:12px 0 0;color:#4E5170;line-height:1.65;max-width:46rem}
+.field{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:.9rem;color:#1B1C4F}
+.field input,.field select,.field textarea{font:inherit;font-weight:400;padding:14px 16px;border-radius:14px;border:1px solid #D3D9E8;background:#FFFFFF;min-height:50px;box-sizing:border-box}
+.field textarea{resize:vertical;min-height:120px}
+.field input,.field select,.field textarea{width:100%;min-width:0}
+.split > *,.grid > *{min-width:0}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid #00AFF0;outline-offset:1px;border-color:#00AFF0}
+header{position:relative}
+.mn{display:flex;align-items:center;gap:4px}
+.mn > a,.mn-dd > button{font:inherit;font-weight:600;font-size:1.06rem;color:#FFFFFF;text-shadow:0 1px 2px rgba(20,21,61,.55),0 0 16px rgba(20,21,61,.6);transition:color .3s;text-decoration:none;background:none;border:0;padding:10px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;min-height:44px;box-sizing:border-box;position:relative}
+.mn > a::after,.mn-dd > button::after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:3px;border-radius:2px;background:#00AFF0;transform:scaleX(0);transition:transform .2s}
+.mn > a:hover::after,.mn-dd:hover > button::after,.mn-dd:focus-within > button::after,.mn .on::after{transform:scaleX(1)}
+.mn-dd{position:relative}
+.mn-panel{display:none;position:absolute;top:calc(100% + 14px);left:-12px;width:400px;background:rgba(22,24,72,.88);-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:10px;box-shadow:0 28px 60px rgba(4,6,30,.45);z-index:60}
+.mn-panel::before{content:"";position:absolute;left:0;right:0;top:-16px;height:16px}
+.mn-dd:hover .mn-panel,.mn-dd:focus-within .mn-panel{display:block;animation:ddin .18s ease-out}
+@keyframes ddin{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.mn-panel a{display:grid;grid-template-columns:44px 1fr 18px;column-gap:14px;align-items:center;padding:12px;border-radius:16px;text-decoration:none;color:#FFFFFF;transition:background .2s}
+.mn-panel a:hover{background:rgba(255,255,255,.07)}
+.mn-panel .ic{grid-row:span 2;width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,rgba(0,175,240,.28),rgba(62,64,149,.5));border:1px solid rgba(127,215,247,.25);display:inline-flex;align-items:center;justify-content:center;color:#7FD7F7}
+.mn-panel strong{font-weight:600;font-size:1rem;color:#FFFFFF}
+.mn-panel span.d{grid-column:2;color:#AEB2DA;font-size:.88rem;line-height:1.4}
+.mn-panel .go{grid-column:3;grid-row:1 / span 2;color:#7FD7F7;opacity:0;transform:translateX(-4px);transition:all .2s}
+.mn-panel a:hover .go{opacity:1;transform:none}
+.m4a-menu{display:none}
+.m4a-menu summary{list-style:none;cursor:pointer;width:44px;height:44px;border-radius:12px;border:1.5px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.06);color:#FFFFFF;transition:all .3s}
+.m4a-menu summary::-webkit-details-marker{display:none}
+.m4a-panel{display:none;position:absolute;left:16px;right:16px;top:92px;background:#FFFFFF;border:1px solid #E1E6F0;border-radius:20px;padding:12px 18px 18px;flex-direction:column;box-shadow:0 18px 44px rgba(27,28,79,.16);z-index:50}
+.m4a-menu[open] .m4a-panel{display:flex}
+.m4a-panel nav{display:flex;flex-direction:column}
+.m4a-panel nav a{display:block;padding:14px 4px;color:#1B1C4F;text-decoration:none;font-weight:600;font-size:1.05rem;border-bottom:1px solid #EDF0F6}
+.m4a-panel .pb{display:flex;flex-direction:column;gap:10px;padding-top:16px}
+.ft a{color:#4E5170;text-decoration:none}.ft a:hover{color:#3E4095}.ft .btn-p{color:#FFFFFF}.ft .btn-o{color:#1B1C4F}
+.tl{list-style:none;margin:0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:2px;background:linear-gradient(180deg,#00AFF0,#3E4095)}
+.tl li{position:relative;padding:0 0 36px 48px;display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 22px}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:0;top:7px;width:16px;height:16px;border-radius:50%;background:#FFFFFF;border:3px solid #00AFF0;box-sizing:border-box}
+.tl li.next::before{border:3px dashed #FE0000}
+.tl .yr{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.45rem;line-height:1.15;color:#0077B3;grid-row:span 2}
+.tl li.next .yr{color:#3E4095}
+.tl strong{font-family:'Outfit',sans-serif;font-weight:600;font-size:1.2rem;color:#1B1C4F}
+.tl p{margin:0;color:#4E5170;line-height:1.6}
+@media (max-width: 640px){.tl li{grid-template-columns:1fr}.tl .yr{grid-row:auto}}
+@keyframes drift{0%{transform:translate(0,0) scale(1)}100%{transform:translate(90px,-50px) scale(1.18)}}
+@keyframes drift2{0%{transform:translate(0,0) scale(1.1)}100%{transform:translate(-70px,60px) scale(.95)}}
+.aur{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none;animation:drift 16s ease-in-out infinite alternate}
+.aur.b{animation:drift2 20s ease-in-out infinite alternate}
+.gridov{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse at 70% 50%,#000 20%,transparent 70%);mask-image:radial-gradient(ellipse at 70% 50%,#000 20%,transparent 70%);pointer-events:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.orb{position:absolute;left:50%;top:50%;border:1px solid rgba(255,255,255,.14);border-radius:50%;transform-origin:center}
+.orb > i{position:absolute;width:10px;height:10px;border-radius:50%;background:#00AFF0;box-shadow:0 0 14px 2px rgba(0,175,240,.8)}
+.orb.s1{animation:spin 38s linear infinite}.orb.s2{animation:spin 26s linear infinite reverse}.orb.s3{animation:spin 18s linear infinite}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.glass{position:absolute;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-radius:20px;padding:14px 18px;color:#FFFFFF;display:flex;flex-direction:column;gap:2px;box-shadow:0 18px 40px rgba(0,0,0,.2);animation:floaty 7s ease-in-out infinite;z-index:3}
+.glass strong{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.6rem;line-height:1.05}
+.glass span{color:#C9CCEB;font-size:.85rem}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(0,175,240,.45)}50%{box-shadow:0 0 0 26px rgba(0,175,240,0)}}
+.gmap{position:relative;justify-self:center;width:min(100%,360px);aspect-ratio:480 / 682}
+.gmap svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.g-out{fill:rgba(255,255,255,.03);stroke:rgba(127,215,247,.55);stroke-width:1.2;stroke-linejoin:round;filter:drop-shadow(0 0 4px rgba(0,175,240,.3))}
+.g-lake{fill:rgba(0,175,240,.24);stroke:rgba(127,215,247,.6);stroke-width:.8}
+.g-arc{fill:none;stroke:rgba(127,215,247,.32);stroke-width:1.2;stroke-dasharray:3 5}
+.g-spoke{fill:none;stroke:rgba(127,215,247,.12);stroke-width:1}
+.g-dot{fill:#00AFF0;transform-box:fill-box;transform-origin:center;animation:gpulse 3.4s ease-in-out infinite}
+@keyframes gpulse{0%,100%{opacity:.4;transform:scale(1)}50%{opacity:1;transform:scale(1.7)}}
+.g-pin{fill:#FFFFFF;stroke:#00AFF0;stroke-width:3}
+.g-mv{fill:#FFFFFF;filter:drop-shadow(0 0 5px #00AFF0)}
+.g-ring{fill:none;stroke:#00AFF0;stroke-width:2;transform-box:fill-box;transform-origin:center;animation:gring 2.8s ease-out infinite}
+@keyframes gring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.8)}}
+@media (prefers-reduced-motion: reduce){.aur,.orb,.glass,.hub,.mn-panel,.g-dot,.g-ring{animation:none !important}.g-mv{display:none}}
+
+.hdr{position:absolute;top:0;left:0;right:0;z-index:30;padding:16px 16px 0}
+.hbar{max-width:1240px;margin:0 auto;padding:10px 12px 10px 22px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-radius:20px;border:1px solid transparent;background:rgba(255,255,255,0);box-sizing:border-box;transition:background .35s,box-shadow .35s,border-color .35s}
+.hlogo{position:relative;display:block;flex:none;height:40px;z-index:0}
+.hlogo img{height:40px;width:auto;display:block;transition:opacity .35s}
+.hlogo .logo-o{position:absolute;left:0;top:0;opacity:1}
+.hlogo .logo-r{opacity:0}
+.hlogo{isolation:isolate}
+.hb-login{color:#FFFFFF;border-color:rgba(255,255,255,.35);background:transparent}.hb-login:hover{color:#FFFFFF;border-color:#FFFFFF}
+.hb-join{background:#00AFF0;color:#1B1C4F}.hb-join:hover{background:#2BC0F5;color:#1B1C4F}
+.hero-under{margin-top:0}
+.vlayer{position:absolute;top:0;bottom:0;right:0;width:64%;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.6) 22%,#000 42%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.6) 22%,#000 42%);pointer-events:none}
+.vlayer video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;filter:saturate(1.08) contrast(1.04)}
+.vtint{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,21,61,.6) 0%,rgba(20,21,61,.32) 55%,rgba(20,21,61,.5) 100%),linear-gradient(180deg,rgba(20,21,61,.55) 0%,rgba(20,21,61,.12) 35%,rgba(20,21,61,.18) 70%,rgba(20,21,61,.7) 100%)}
+.vbtn{position:absolute;right:24px;bottom:22px;z-index:4;font:inherit;font-size:.82rem;font-weight:600;color:#FFFFFF;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:999px;padding:8px 14px;min-height:36px;cursor:pointer}
+.vbtn:hover{background:rgba(255,255,255,.18)}
+@media (max-width: 960px){.vlayer,.vbtn{display:none}}
+.hsplit{background:linear-gradient(90deg,#F4F8FD 0%,#EEF4FB 14%,#D5E0F0 22%,#AAB7DA 30%,#7884B8 37%,#4C5696 43%,#2A2E74 49%,#14153D 55%,#14153D 100%) !important;color:#1B1C4F}
+.hsplit .h1{color:#1B1C4F}
+.hsplit .lead{color:#1B1C4F;max-width:26rem}
+.split.hs{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:48px}
+.hsplit .h1{font-size:clamp(2.5rem,4vw,3.5rem)}
+.hsplit .acc{color:#0089C7}
+@media (max-width: 960px){.hsplit{background:#F4F8FD !important}.hsplit .hvis{background:#14153D;border-radius:28px;padding:28px;overflow:hidden;position:relative}.hsplit .glow,.hsplit .aur{display:none}.split.hs{grid-template-columns:1fr}.m4a-menu summary{border-color:#D3D9E8;background:#FFFFFF;color:#1B1C4F}}
+@media (max-width: 1100px){.mn,.mn-right{display:none !important}.m4a-menu{display:block}}
+@media (max-width: 960px){.split{grid-template-columns:1fr;gap:44px}.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:32px}.stat:nth-child(3){border-left:0;padding-left:0}.steps{grid-template-columns:1fr}}
+@media (max-width: 640px){.sec{padding:72px 0}.wrap{padding:0 20px}.g2,.g3,.g4{grid-template-columns:1fr}.card{padding:24px !important}.band[style*='padding: 36px']{padding:28px !important}.lead{font-size:1.08rem}.hero-pad{padding:48px 20px 64px !important}.dh{padding-top:124px !important}.hdr{padding:10px 10px 0 !important}.hbar{padding:8px 8px 8px 14px !important}.hero-under{margin-top:0}.glass{max-width:78%}.cta-box{padding:48px 24px !important;border-radius:28px !important}}
+@media (prefers-reduced-motion: reduce){.card,.btn{transition:none}}
+</style>
+</head>
+<body>
+
+
+<div style="position: relative; font-family: 'Figtree', system-ui, sans-serif; color: #1B1C4F; background: #FFFFFF; font-size: 1rem; line-height: 1.55">
+<header class="hdr">
+<div class="hbar">
+<a class="hlogo" href="index.html" aria-label="Med4All home"><img class="logo-o" src="assets/med4all-logo.png" alt="Med4All" style="position: static"></a>
+<nav class="mn" aria-label="Main" style="margin-left: auto">
+<div class="mn-dd"><button type="button" aria-haspopup="true">Solutions <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+<div class="mn-panel"><a href="health-facilities.html"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg></span><strong>Marketplace</strong><span class="d">Trusted medicines from vetted suppliers</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a><a href="health-facilities.html"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13"></path><path d="M10 21v-5h4v5M12 8v4M10 10h4"></path></svg></span><strong>For health facilities</strong><span class="d">Fair prices, approvals and delivery</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a><a href="suppliers.html"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"></path><path d="M3 7l9 4 9-4M12 11v10"></path></svg></span><strong>For suppliers</strong><span class="d">Approved orders through one channel</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></div></div>
+<a href="index.html#impact">Impact</a>
+<div class="mn-dd"><button type="button" aria-haspopup="true">About <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+<div class="mn-panel"><a href="about.html"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21V9M12 9c0-3 2-6 6-6 0 4-3 6-6 6zM12 13c0-3-2-5-6-5 0 4 3 5 6 5z"></path></svg></span><strong>Our story</strong><span class="d">Built in Ghana with PharmAccess and CHAG</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a><a href="about.html#team"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3 3-5 6-5s6 2 6 5"></path><path d="M16 4a3 3 0 0 1 0 6M18 15c2 .5 3 2 3 5"></path></svg></span><strong>Our team</strong><span class="d">The people behind Med4All</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a><a href="about.html#partners"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"></path><path d="m9 12 2 2 4-4"></path></svg></span><strong>Partners</strong><span class="d">Who we work with</span><span class="go"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></div></div>
+<a href="news.html">News</a>
+<a href="contact.html">Contact</a>
+</nav>
+<div class="mn-right row" style="flex: none; gap: 10px">
+<a class="btn hb-login" href="https://shop.med4all.org.gh/customer/account/login/" style="padding: 11px 22px; min-height: 46px; font-size: 1.06rem">Log in</a>
+<a class="btn hb-join" href="https://shop.med4all.org.gh/customer/account/create/" style="padding: 11px 24px; min-height: 46px; font-size: 1.06rem">Join now</a>
+</div>
+<details class="m4a-menu" style="margin-left: auto"><summary aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></summary>
+<div class="m4a-panel"><nav aria-label="Mobile"><a href="health-facilities.html">Marketplace</a><a href="health-facilities.html">For health facilities</a><a href="suppliers.html">For suppliers</a><a href="index.html#impact">Impact</a><a href="about.html">About</a><a href="news.html">News</a><a href="contact.html">Contact</a></nav><div class="pb"><a class="btn btn-o" href="https://shop.med4all.org.gh/customer/account/login/">Log in</a><a class="btn btn-p" href="https://shop.med4all.org.gh/customer/account/create/">Join now</a></div></div></details>
+</div>
+</header>
+<section class="band hero-under hsplit">
+<div class="vlayer" aria-hidden="true"><video class="hero-vid" src="assets/hero-loop.mp4" poster="assets/hero-poster.jpg" muted loop playsinline preload="metadata"></video><div class="vtint"></div></div>
+<div class="aur" style="width: 620px; height: 620px; right: -120px; top: -200px; background: #00AFF0; opacity: 0.22"></div>
+<div class="aur b" style="width: 460px; height: 460px; right: 22%; bottom: -260px; background: #3E4095; opacity: 0.7"></div>
+<div class="aur" style="width: 320px; height: 320px; right: 8%; top: 45%; background: #6E6FD6; opacity: 0.28; animation-duration: 24s"></div>
+<div class="wrap hero-pad dh" style="position: relative; padding-top: 176px; padding-bottom: 112px"><div class="split hs">
+<div style="display: flex; flex-direction: column; gap: 24px; max-width: 29rem"><span class="eyebrow">Ghana’s Digital Medicine Marketplace</span>
+<h1 class="h1">Trusted medicines.<br>Smarter procurement.<br><span class="acc">Better access.</span></h1>
+<p class="lead">Genuine medicines from vetted suppliers, at fair prices, delivered to your health facility. With your team in control at every step.</p>
+<div class="row"><a class="btn btn-p" href="https://shop.med4all.org.gh/customer/account/create/">Join now <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a><a class="btn btn-o" href="health-facilities.html#demo">Book a demo</a></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 18px; margin-top: 6px; border-top: 1px solid rgba(27,28,79,0.12); color: #2F3256; font-size: 0.95rem"><span>Approved within 2 working days</span><a href="suppliers.html" style="font-weight: 600; color: #23246B">Are you a supplier? Partner with us →</a></div></div>
+<div class="hvis"><div class="gmap"><svg viewBox="0 0 480 682" role="img" aria-label="Map of Ghana showing Med4All connecting health facilities and suppliers across the country"><path class="g-out" d="M326.1 22.8 L330.5 27.1 L339.4 26.4 L342.7 27.7 L344.2 30.0 L344.0 37.9 L341.1 40.9 L339.0 50.9 L339.4 54.9 L334.4 60.6 L332.9 68.7 L333.8 72.9 L345.5 77.9 L348.2 82.1 L355.0 87.0 L360.3 96.8 L362.0 95.1 L365.6 96.3 L369.6 95.5 L370.5 96.5 L370.1 99.5 L373.9 104.4 L373.1 106.4 L378.8 105.7 L381.8 107.8 L379.3 109.6 L377.9 114.1 L377.5 124.6 L378.5 127.2 L381.6 128.9 L381.9 130.9 L381.5 132.9 L377.1 133.2 L379.1 142.2 L376.3 145.7 L376.5 152.2 L374.4 160.0 L376.9 166.2 L376.9 169.7 L374.1 171.2 L369.8 167.5 L368.4 170.3 L368.4 173.3 L370.0 175.3 L377.1 174.7 L379.0 175.0 L379.9 177.1 L377.6 178.9 L374.4 177.7 L372.7 178.9 L365.3 178.5 L364.9 182.8 L367.6 184.6 L371.5 184.2 L372.4 185.3 L370.8 187.2 L365.1 188.6 L365.0 192.8 L365.4 194.1 L369.1 193.9 L374.4 191.7 L375.6 188.1 L383.2 186.8 L390.4 189.0 L391.2 190.9 L390.3 193.2 L395.1 195.9 L394.6 206.2 L391.3 210.1 L392.4 217.3 L388.4 222.3 L387.9 227.0 L385.2 233.2 L391.3 244.4 L392.5 249.3 L389.4 256.6 L384.0 256.8 L382.9 260.0 L380.6 257.3 L378.7 258.5 L379.6 263.4 L386.4 275.2 L397.0 283.9 L403.5 287.0 L406.5 294.4 L410.3 297.6 L410.7 302.7 L412.6 303.6 L413.0 306.0 L412.3 307.6 L399.3 315.4 L401.2 320.7 L399.4 323.3 L401.2 334.2 L403.1 365.8 L400.2 365.3 L398.1 374.5 L392.9 377.2 L391.5 385.3 L393.6 394.6 L398.5 397.6 L404.1 395.9 L406.4 403.3 L401.6 419.8 L401.7 432.5 L399.8 435.9 L391.4 438.3 L396.6 444.1 L393.6 451.4 L399.6 460.1 L404.4 462.8 L405.1 473.2 L408.6 477.0 L413.2 477.2 L414.5 478.4 L412.9 484.2 L416.3 491.4 L425.7 497.6 L430.2 502.5 L439.8 503.0 L443.9 513.3 L450.7 519.4 L458.8 520.3 L460.0 521.9 L459.7 525.4 L451.2 530.8 L446.2 536.2 L442.6 542.8 L441.0 551.5 L437.0 556.3 L414.1 559.9 L378.6 557.3 L372.0 558.1 L358.1 563.0 L353.9 566.5 L350.0 567.6 L346.0 572.6 L338.1 575.2 L335.8 577.3 L305.8 586.1 L298.5 592.2 L295.9 596.3 L280.3 602.7 L279.5 601.3 L263.5 613.8 L256.2 614.9 L252.4 613.5 L246.0 615.5 L244.0 613.6 L228.4 619.9 L226.5 622.3 L220.6 625.2 L212.1 625.9 L206.7 628.0 L191.4 631.3 L187.4 633.4 L182.5 633.1 L181.3 634.0 L181.0 637.8 L172.6 642.5 L169.8 645.7 L169.7 647.6 L153.5 653.2 L148.1 659.4 L135.9 661.5 L134.5 660.7 L134.1 657.7 L129.5 656.6 L121.4 650.3 L119.8 647.4 L109.6 643.3 L92.8 639.8 L76.6 634.3 L49.4 630.8 L34.1 626.2 L34.6 624.5 L36.2 624.0 L44.4 623.9 L50.1 627.0 L53.2 625.9 L53.0 623.1 L55.7 622.0 L69.0 619.2 L70.0 617.3 L67.8 615.2 L68.2 611.4 L66.1 606.8 L66.8 600.7 L71.4 601.0 L72.6 598.0 L69.5 589.9 L66.4 574.6 L58.1 571.7 L51.3 574.6 L49.0 573.2 L48.4 570.7 L49.4 564.4 L43.0 565.0 L43.7 550.0 L37.3 535.8 L34.3 519.1 L32.2 513.6 L27.8 509.1 L20.0 473.8 L20.9 471.1 L23.2 469.4 L25.1 464.0 L21.9 458.1 L22.1 454.5 L35.1 431.0 L41.4 428.5 L43.2 421.8 L48.6 414.2 L46.9 408.6 L51.7 378.0 L62.0 356.1 L61.8 353.7 L65.6 350.7 L66.7 341.4 L68.6 342.7 L76.5 334.8 L84.5 331.8 L85.5 328.8 L83.3 322.2 L84.4 319.3 L89.6 319.0 L94.8 314.9 L85.7 259.0 L83.8 257.0 L85.9 253.1 L83.6 243.6 L81.8 242.8 L79.5 234.5 L70.6 232.2 L68.2 230.5 L70.2 221.7 L75.1 214.1 L79.5 210.6 L79.6 208.7 L76.3 207.5 L74.1 204.9 L74.3 203.0 L78.3 198.6 L78.0 188.8 L69.1 178.4 L69.5 173.5 L71.6 171.0 L66.2 164.1 L68.2 158.6 L72.3 153.8 L69.6 149.0 L70.2 139.4 L66.9 132.2 L65.8 119.2 L65.9 117.2 L69.9 112.7 L70.2 110.1 L62.4 105.6 L61.6 101.8 L63.5 97.4 L67.6 95.9 L68.9 94.1 L63.3 92.7 L59.8 89.6 L56.7 84.0 L52.6 72.8 L55.3 66.9 L53.6 64.1 L57.6 56.5 L59.4 49.8 L63.6 45.6 L64.2 43.3 L62.0 36.5 L70.6 36.6 L70.6 37.7 L184.5 36.6 L188.1 33.6 L200.6 34.0 L208.6 36.6 L233.1 36.8 L233.9 35.3 L236.7 34.9 L250.4 36.0 L254.2 38.3 L253.5 39.6 L260.7 35.7 L275.9 37.9 L275.0 40.9 L279.8 45.5 L281.5 44.4 L284.2 38.0 L291.8 37.3 L297.4 33.3 L300.5 26.1 L302.4 26.1 L306.1 29.8 L311.0 26.1 L313.1 23.4 L312.7 20.0 L326.1 22.8 Z"></path><path class="g-spoke" d="M222.3 340.4 L324.1 575.1"></path><path class="g-spoke" d="M222.3 340.4 L145.3 605.3"></path><path class="g-spoke" d="M222.3 340.4 L182.4 466.6"></path><path class="g-spoke" d="M222.3 340.4 L258.5 196.0"></path><path class="g-spoke" d="M222.3 340.4 L258.5 57.2"></path><path class="g-spoke" d="M222.3 340.4 L95.4 130.1"></path><path class="g-spoke" d="M222.3 340.4 L440.7 531.5"></path><path class="g-spoke" d="M222.3 340.4 L334.3 428.6"></path><path class="g-spoke" d="M222.3 340.4 L112.2 401.7"></path><path class="g-spoke" d="M222.3 340.4 L219.0 624.3"></path><path class="g-spoke" d="M222.3 340.4 L389.0 475.6"></path><path class="g-spoke" d="M222.3 340.4 L316.8 526.5"></path><path class="g-spoke" d="M222.3 340.4 L168.5 642.3"></path><path class="g-spoke" d="M222.3 340.4 L150.8 376.7"></path><path class="g-spoke" d="M222.3 340.4 L162.6 228.0"></path><path class="g-spoke" d="M222.3 340.4 L306.0 83.2"></path><path class="g-spoke" d="M222.3 340.4 L93.4 455.6"></path><path class="g-spoke" d="M222.3 340.4 L360.3 328.8"></path><path class="g-arc" d="M324.1 575.1 Q229.3 558.0 145.3 605.3"></path><path class="g-arc" d="M182.4 466.6 Q131.1 451.7 112.2 401.7"></path><path class="g-arc" d="M324.1 575.1 Q373.7 530.0 440.7 531.5"></path><path class="g-arc" d="M182.4 466.6 Q261.0 342.7 258.5 196.0"></path><path class="g-arc" d="M258.5 196.0 Q228.0 126.6 258.5 57.2"></path><path class="g-arc" d="M324.1 575.1 Q365.8 504.4 334.3 428.6"></path><path class="g-arc" d="M182.4 466.6 Q88.4 311.4 95.4 130.1"></path><path class="g-arc" d="M168.5 642.3 Q200.1 651.0 219.0 624.3"></path><path class="g-arc" d="M316.8 526.5 Q340.2 483.0 389.0 475.6"></path><path class="g-arc" d="M150.8 376.7 Q186.4 304.7 162.6 228.0"></path><path class="g-arc" d="M182.4 466.6 Q191.6 543.4 145.3 605.3"></path><path class="g-arc" d="M258.5 196.0 Q310.4 151.5 306.0 83.2"></path><circle class="g-dot" cx="324.1" cy="575.1" r="3.4" style="animation-delay: -0.00s"></circle><circle class="g-dot" cx="182.4" cy="466.6" r="3.4" style="animation-delay: -0.45s"></circle><circle class="g-dot" cx="258.5" cy="196.0" r="3.4" style="animation-delay: -0.90s"></circle><circle class="g-dot" cx="258.5" cy="57.2" r="3.4" style="animation-delay: -1.35s"></circle><circle class="g-dot" cx="95.4" cy="130.1" r="3.4" style="animation-delay: -1.80s"></circle><circle class="g-dot" cx="112.2" cy="401.7" r="3.4" style="animation-delay: -2.25s"></circle><circle class="g-dot" cx="389.0" cy="475.6" r="3.4" style="animation-delay: -2.70s"></circle><circle class="g-dot" cx="316.8" cy="526.5" r="3.4" style="animation-delay: -3.15s"></circle><circle class="g-dot" cx="219.0" cy="624.3" r="3.4" style="animation-delay: -0.20s"></circle><circle class="g-dot" cx="168.5" cy="642.3" r="3.4" style="animation-delay: -0.65s"></circle><circle class="g-dot" cx="150.8" cy="376.7" r="3.4" style="animation-delay: -1.10s"></circle><circle class="g-dot" cx="162.6" cy="228.0" r="3.4" style="animation-delay: -1.55s"></circle><circle class="g-dot" cx="306.0" cy="83.2" r="3.4" style="animation-delay: -2.00s"></circle><circle class="g-dot" cx="93.4" cy="455.6" r="3.4" style="animation-delay: -2.45s"></circle><circle class="g-dot" cx="360.3" cy="328.8" r="3.4" style="animation-delay: -2.90s"></circle><circle class="g-pin" cx="145.3" cy="605.3" r="5.5"></circle><circle class="g-pin" cx="440.7" cy="531.5" r="5.5"></circle><circle class="g-pin" cx="334.3" cy="428.6" r="5.5"></circle><circle class="g-mv" r="3.2"><animateMotion dur="4.0s" begin="-0.0s" repeatCount="indefinite" path="M324.1 575.1 Q229.3 558.0 145.3 605.3"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.3s" begin="-0.8s" repeatCount="indefinite" path="M182.4 466.6 Q131.1 451.7 112.2 401.7"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.5s" begin="-1.6s" repeatCount="indefinite" path="M324.1 575.1 Q373.7 530.0 440.7 531.5"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="5.0s" begin="-2.4s" repeatCount="indefinite" path="M182.4 466.6 Q261.0 342.7 258.5 196.0"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.7s" begin="-3.2s" repeatCount="indefinite" path="M258.5 196.0 Q228.0 126.6 258.5 57.2"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.7s" begin="-4.0s" repeatCount="indefinite" path="M324.1 575.1 Q365.8 504.4 334.3 428.6"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="5.6s" begin="-4.8s" repeatCount="indefinite" path="M182.4 466.6 Q88.4 311.4 95.4 130.1"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="2.9s" begin="-5.6s" repeatCount="indefinite" path="M168.5 642.3 Q200.1 651.0 219.0 624.3"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.2s" begin="-6.4s" repeatCount="indefinite" path="M316.8 526.5 Q340.2 483.0 389.0 475.6"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.8s" begin="-7.2s" repeatCount="indefinite" path="M150.8 376.7 Q186.4 304.7 162.6 228.0"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.7s" begin="-8.0s" repeatCount="indefinite" path="M182.4 466.6 Q191.6 543.4 145.3 605.3"></animateMotion></circle><circle class="g-mv" r="3.2"><animateMotion dur="3.5s" begin="-8.8s" repeatCount="indefinite" path="M258.5 196.0 Q310.4 151.5 306.0 83.2"></animateMotion></circle><circle class="g-ring" cx="222.3" cy="340.4" r="24"></circle><circle cx="222.3" cy="340.4" r="25" fill="#1B1C4F" stroke="#00AFF0" stroke-width="6"></circle><path transform="translate(207.9 326.0) scale(1.2)" d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z" fill="#FE0000"></path></svg>
+<div class="glass" style="right: -16%; top: 30%; animation-delay: -2.5s"><span style="display: inline-flex; align-items: center; gap: 8px; color: #FFFFFF; font-weight: 600; font-size: 0.92rem"><span style="width: 8px; height: 8px; border-radius: 50%; background: #3DDC97"></span>Order approved</span><span>Delivered and tracked</span></div>
+<div class="glass" style="left: -18%; bottom: 14%; animation-delay: -5s"><strong>14</strong><span>regions served</span></div>
+</div></div>
+</div></div><button type="button" class="vbtn" data-vidtoggle>Pause video</button></section><section style="padding: 56px 0; border-bottom: 1px solid #E8ECF3"><div class="wrap" style="display: flex; flex-direction: column; gap: 28px; align-items: center"><span class="muted" style="font-size: 0.92rem">Founded with, supported and recognised by</span><div class="logos"><img src="assets/pharmaccess-logo.png" alt="PharmAccess" style="height: 30px; width: auto"><img src="assets/chag-logo.png" alt="Christian Health Association of Ghana" style="height: 54px; width: auto"><img src="assets/fda-logo.png" alt="Food and Drugs Authority Ghana" style="height: 50px; width: auto"><img src="assets/helmsley-logo-v2.png" alt="The Leona M. and Harry B. Helmsley Charitable Trust" style="height: 46px; width: auto; border-radius: 4px"><img src="assets/aeip-logo.png" alt="Africa-Europe Innovation Platform" style="height: 44px; width: auto"><img src="assets/norad-logo.png" alt="Norad" style="height: 40px; width: auto; border-radius: 6px"><img src="assets/achmea-logo.png" alt="Achmea" style="height: 30px; width: auto"><img src="assets/pfizer-logo.png" alt="Pfizer" style="height: 40px; width: auto"></div></div></section><section style="padding: 40px 0; border-bottom: 1px solid #E8ECF3; background: #F6F9FC"><div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 14px 40px; text-align: center"><span class="muted" style="font-size: 0.92rem">Trusted by health facilities including</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Pentecost Hospital, Tarkwa</strong><span aria-hidden="true" style="color: #FE0000; font-weight: 700">+</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Hope Christian Hospital</strong><span aria-hidden="true" style="color: #FE0000; font-weight: 700">+</span><strong style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #1B1C4F">Manna Mission Hospital</strong></div></section><section class="sec"><div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
+<div class="hd c"><span class="eyebrow">Why Med4All</span><h2 class="h2">Everything a health facility needs to buy medicines with confidence.</h2></div>
+<div class="grid g3">
+<div class="card"><span class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"></path><path d="m9 12 2 2 4-4"></path></svg></span><h3 class="h3">Genuine medicines</h3><p>Every supplier is vetted by Med4All, with quality controls developed alongside Ghana’s FDA.</p></div>
+<div class="card"><span class="icon l"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l3 7 4-14 3 7h4"></path></svg></span><h3 class="h3">Fair prices</h3><p>Negotiated prices that health facilities say are far below the open market. Save 39% on average.</p></div>
+<div class="card"><span class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"></path><circle cx="7" cy="18" r="1.6"></circle><circle cx="17" cy="18" r="1.6"></circle></svg></span><h3 class="h3">Delivered, with you in control</h3><p>Your team approves every order, chooses how to pay, and tracks it all the way to your door.</p></div>
+</div></div></section><section class="sec alt"><div class="wrap split">
+<div class="photo" style="min-height: 460px"><img src="assets/supplier-engagement.jpg" alt="Suppliers and the Med4All team signing the Supplier Partnership Charter" style="object-position: center 40%"><div class="chip" style="left: 20px; bottom: 20px"><strong>840</strong><span>products from 22 vetted suppliers</span></div></div>
+<div style="display: flex; flex-direction: column; gap: 28px"><div class="hd"><span class="eyebrow">How it works</span><h2 class="h2">Up and running in three simple steps.</h2></div>
+<div class="steps" style="grid-template-columns: 1fr; gap: 26px">
+<div class="step"><span class="num">01</span><h3 class="h3">Join</h3><p class="muted" style="margin: 0">Create your health facility account. We’ll approve it within 2 working days.</p></div>
+<div class="step"><span class="num">02</span><h3 class="h3">Place orders</h3><p class="muted" style="margin: 0">Choose from 840 products. Your team approves before anything is sent.</p></div>
+<div class="step"><span class="num">03</span><h3 class="h3">Receive and track</h3><p class="muted" style="margin: 0">Follow every order to your door, and confirm delivery with a quick photo.</p></div>
+</div>
+<div class="row"><a class="btn btn-p" href="https://shop.med4all.org.gh/customer/account/create/">Join now</a><a href="health-facilities.html" style="font-weight: 600">See how ordering works →</a></div></div>
+</div></section><section id="impact" class="sec band"><div class="glow" style="width: 600px; height: 600px; right: -200px; top: -280px; background: #00AFF0; opacity: 0.2"></div><div class="wrap" style="position: relative; display: flex; flex-direction: column; gap: 64px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 24px"><div class="hd"><span class="eyebrow light">Impact</span><h2 class="h2">Real savings for health facilities across Ghana.</h2></div><a href="about.html" style="color: #FFFFFF; font-weight: 600">More about our impact →</a></div>
+<div class="stats"><div class="stat"><strong>GHS 4.78M</strong><span>saved by health facilities</span></div><div class="stat"><strong>1.5M+</strong><span>patients reached</span></div><div class="stat"><strong>39%</strong><span>average saving, 2024</span></div><div class="stat"><strong>14</strong><span>regions served</span></div></div>
+<div class="grid g2">
+<figure style="margin: 0; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 22px"><blockquote class="quote">“When we used to buy on the general market, prices were very high, as much as 30 to 40% higher than we are getting in Med4All.”</blockquote><figcaption style="display: flex; flex-direction: column"><strong>Alex Peasah-Koduah</strong><span style="color: #C9CCEB">Medical Director, Hope Christian Hospital, Central Region</span></figcaption></figure>
+<figure style="margin: 0; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 22px"><blockquote class="quote">“The advantage of Med4All is the relief of financial pressure on us because we don’t have to pay upfront.”</blockquote><figcaption style="display: flex; flex-direction: column"><strong>Dr. Frank Amankonah</strong><span style="color: #C9CCEB">Medical Administrator, Pentecost Hospital Tarkwa</span></figcaption></figure>
+</div></div></section><section class="sec"><div class="wrap" style="display: flex; flex-direction: column; gap: 48px">
+<div class="hd c"><span class="eyebrow">Get started</span><h2 class="h2">Built for both sides of the medicine supply chain.</h2></div>
+<div class="grid g2">
+<a class="card" href="health-facilities.html" style="text-decoration: none; padding: 40px; background: #EAF7FD; border-color: #D4EEFA"><span class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3 3-5 6-5s6 2 6 5"></path><path d="M16 4a3 3 0 0 1 0 6M18 15c2 .5 3 2 3 5"></path></svg></span><h3 class="h3" style="font-size: 1.7rem">For health facilities</h3><p>Hospitals, clinics and pharmacies buying genuine medicines at fair prices, with full control.</p><span style="font-weight: 700; color: #3E4095">Explore the marketplace →</span></a>
+<a class="card" href="suppliers.html" style="text-decoration: none; padding: 40px; background: #F0F0FA; border-color: #E2E3F5"><span class="icon l"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E4095" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"></path><path d="M3 7l9 4 9-4M12 11v10"></path></svg></span><h3 class="h3" style="font-size: 1.7rem">For suppliers</h3><p>Manufacturers, importers and distributors receiving approved orders through one channel.</p><span style="font-weight: 700; color: #3E4095">Become a supplier →</span></a>
+</div></div></section><section class="sec" style="padding-top: 0">
+<div class="wrap"><div class="band cta-box" style="border-radius: 36px; padding: 80px 56px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px">
+<div class="glow" style="width: 560px; height: 560px; left: 50%; top: -320px; transform: translateX(-50%); background: #00AFF0; opacity: 0.25"></div>
+<h2 class="h2" style="position: relative; max-width: 42rem">Ready to buy medicines with confidence?</h2>
+<p style="position: relative; margin: 0; color: #C9CCEB; font-size: 1.15rem; max-width: 36rem; line-height: 1.6">Join 145 health facilities getting trusted medicines at fair prices.</p>
+<div class="row" style="position: relative; justify-content: center"><a class="btn btn-c" href="https://shop.med4all.org.gh/customer/account/create/">Join now <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a><a class="btn btn-g" href="contact.html">Talk to us</a></div>
+</div></div>
+</section>
+<footer class="ft" style="background: #F3F6FA; color: #4E5170; border-top: 1px solid #E3E8F0">
+<div class="wrap" style="padding-top: 80px; padding-bottom: 36px; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 28px; padding-bottom: 48px; border-bottom: 1px solid #DDE4EE">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 34rem"><img src="assets/med4all-logo.png" alt="Med4All" style="height: 42px; width: auto; align-self: flex-start; display: block"><p style="margin: 0; font-family: 'Outfit', sans-serif; font-size: clamp(1.6rem, 2.6vw, 2.2rem); line-height: 1.15; color: #1B1C4F; letter-spacing: -0.02em">Trusted medicines. Smarter procurement. Better access.</p></div>
+<div class="row"><a class="btn btn-p" href="https://shop.med4all.org.gh/customer/account/create/">Join now <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a><a class="btn btn-o" href="contact.html">Talk to us</a></div>
+</div>
+<div class="grid g4" style="gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem"><strong style="color: #1B1C4F">Solutions</strong><a href="health-facilities.html">Marketplace</a><a href="health-facilities.html">For health facilities</a><a href="suppliers.html">For suppliers</a></div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem"><strong style="color: #1B1C4F">Company</strong><a href="about.html">About</a><a href="index.html#impact">Impact</a><a href="news.html">News</a><a href="contact.html">Contact</a></div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem"><strong style="color: #1B1C4F">Platform</strong><a href="https://shop.med4all.org.gh/customer/account/login/">Health facility log in</a><a href="https://shop.med4all.org.gh/supplier/account/login">Supplier log in</a><a href="https://shop.med4all.org.gh/customer/account/create/">Join now</a></div>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem"><strong style="color: #1B1C4F">Contact</strong><span>PharmAccess Ghana<br>5 Dakar Avenue, East Legon, Accra</span><span><a href="tel:+233272222700">+233 27 2222 700</a><br><a href="tel:+233552222700">+233 55 2222 700</a></span><a href="mailto:customersuccessteam@med4all.org.gh" style="overflow-wrap: anywhere">customersuccessteam@med4all.org.gh</a><a href="https://wa.me/233272222700" target="_blank" rel="noopener">WhatsApp us</a></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; padding-top: 24px; border-top: 1px solid #DDE4EE; font-size: 0.85rem"><span>© 2026 Med4All · A PharmAccess and CHAG initiative</span><span><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms and conditions</a></span></div>
+</div>
+</footer>
+</div>
+
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
