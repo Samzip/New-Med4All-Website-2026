@@ -3,7 +3,7 @@
 A ready-to-upload static website. No database or server software is needed.
 
 ## What's inside
-- index.html (home), health-facilities.html, suppliers.html, about.html, news.html, contact.html, privacy.html, terms.html
+- index.html (home), health-facilities.html, suppliers.html, about.html, news.html, faq.html, contact.html, privacy.html, terms.html
 - assets/: logos, photos, team photos, the homepage video loop (hero-loop.mp4, 2 MB) and its still image, favicon, link-preview image, and site.js (forms and video)
 - robots.txt and sitemap.xml
 
@@ -29,6 +29,7 @@ The video plays muted on screens 960px and wider, and stays paused for visitors 
 
 ## On the Marketplace (Magento)
 - Link the Med4All logo on the login page back to www.med4all.org.gh.
+- Update the marketplace footer links (see MARKETPLACE-FOOTER-FIX.md).
 - Set internal marketplace pages to noindex, so Google shows this website first.
 
 ## Editing content
