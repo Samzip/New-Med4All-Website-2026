@@ -1,5 +1,10 @@
 # Changelog
 
+## V2.2 (November 2026): team section
+- About: new, sharper photos for George Afful and Amanda Henneh (assets/george-afful.jpg, assets/amanda-henneh.jpg). Old george-uniform.jpg and amanda-uniform.jpg removed.
+- About: Amanda's surname corrected from Henner to Henneh.
+- About: email links added under each team member's title (Samuel, George and Amanda).
+
 ## V2.1 (November 2026): comms review
 - Home, Health facilities, About and Suppliers: "Ghana's FDA" now reads "Ghana's Food and Drugs Authority (FDA)" at first mention.
 - Health facilities: "Approver" is now lowercase ("approver") in the ordering steps and the FAQ.
